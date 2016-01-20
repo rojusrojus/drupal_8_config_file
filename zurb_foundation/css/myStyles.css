@@ -1,0 +1,84 @@
+/*
+*
+* VM Overwrites for base theme
+*
+*/
+
+
+body{
+  margin: 1rem auto auto auto;
+}
+
+hr{
+  background-color: #333;
+  border-color: #333;
+  color: #333;
+}
+
+.breadcrumbs{
+  background-color: #333;
+  color:antiquewhite;
+  border: none;
+  border-top: .1rem dashed coral;
+}
+
+.breadcrumbs > .current a{
+  color: coral;
+}
+
+main{
+	background-color: antiquewhite;
+}
+
+#main{
+  background-color: antiquewhite;
+}
+
+.orbit-container{
+  border-radius: .3rem;
+}
+
+.orbit-container img{
+  border-radius: .3rem;
+}
+
+.orbit-caption, .orbit-bullets-container{
+  border-bottom-left-radius: .3rem;
+  border-bottom-right-radius: .3rem;
+}
+
+.orbit-bullets{
+  margin:.8rem auto;
+}
+
+body, .footer-last, .footer-first, .footer-middle, .bottom-bar, .panel, .inner-wrap{
+	background-color: coral;
+}
+
+#block-zurb-foundation-branding > div > a {
+  margin: 0 2rem 0 0;
+}
+
+.bottom-bar{
+  border-top-left-radius: .3rem;
+  border-top-right-radius: .3rem;
+  background-color: #333;
+  border: none;
+}
+
+.bottom-bar > div > div {
+  background-color: #333;
+  color: antiquewhite;
+}
+
+footer{
+  margin: .2rem auto !important;
+  border-radius: .3rem;
+  background-color: #333;
+  color:antiquewhite;
+  padding: 1rem;
+}
+
+footer a {
+  color: antiquewhite;
+}
